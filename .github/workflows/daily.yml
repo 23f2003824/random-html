@@ -3,7 +3,7 @@ name: Daily Commit Workflow
 on:
   schedule:
     # Runs every day at 07:15 UTC (change this to your preferred time)
-    - cron: '53 7 * * *'
+    - cron: '58 7 * * *'
 
 jobs:
   daily-commit:
